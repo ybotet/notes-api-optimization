@@ -1,0 +1,35 @@
+{
+  "database_size": "5,000 записей",
+  "results": {
+    "GET /notes (пагинация)": {
+      "avg_time_ms": "6.50",
+      "estimated_rps": "153.8",
+      "max_time_ms": "35.20",
+      "min_time_ms": "2.32",
+      "success_rate": "10/10"
+    },
+    "GET /notes/:id (одна)": {
+      "avg_time_ms": "4.76",
+      "estimated_rps": "210.2",
+      "max_time_ms": "9.31",
+      "min_time_ms": "3.03",
+      "success_rate": "10/10"
+    },
+    "GET /notes/batch (batch)": {
+      "avg_time_ms": "4.83",
+      "estimated_rps": "207.1",
+      "max_time_ms": "6.91",
+      "min_time_ms": "3.32",
+      "success_rate": "10/10"
+    },
+    "GET /notes/search (поиск)": {
+      "avg_time_ms": "4.01",
+      "estimated_rps": "249.6",
+      "max_time_ms": "7.59",
+      "min_time_ms": "2.71",
+      "success_rate": "10/10"
+    }
+  },
+  "test_date": "2025-12-15 17:53:06",
+  "test_method": "10 запросов на endpoint"
+}
